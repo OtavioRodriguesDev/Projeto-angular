@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+h4 {
+    color: rgb(32, 32, 220);
+}
+
+.title h2{
+    position: absolute;
+    width: 500px;
+    margin-top:170px;
+    left: 680px;
+    color: black;
+    font-weight: bold;
+    font-size:20pt;
+}
+
+span {
+    color: #000;
+}
+
+.breadcrumb #adidas-title {
+    position: absolute;
+    left: 95px;
+    top: 9px;
+    font-size: 12.5pt;
+}
+
+.breadcrumb {
+    position: absolute;
+    top: 90px;
+    left: 200px;
+    border: 1px solid #b6b6b6;
+    width: 600px;
+    height: 38px;
+    border-radius: 5px;
+}
+
+.breadcrumb ul li{
+    display: inline-block;
+    margin-left: 6%;
+    margin-top: 9px;
+}
+
+.breadcrumb h2{
+    font-size: 10px;
+    text-decoration: none;
+    color:#3a3a3a;
+    margin-left: 0px;
+    margin-top: 4px;
+}
+
+.breadcrumb a{
+    text-decoration: none;
+}
+
+.breadcrumb a h4:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+.produtos {
+    position: absolute;
+    width: 840px;
+    top: 210px;
+    left: 340px;
+}
+
+.produtos li {
+    display:inline-block;
+    padding: 43px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.produtos h2 {
+    font-size: 15pt;
+}
+

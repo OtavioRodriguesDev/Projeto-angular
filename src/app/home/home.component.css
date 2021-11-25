@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.img-jordans { 
+    position: absolute;
+    object-fit: cover; /*Mantém a qualidade da imagem, independente do tamanho*/
+    width: 600%;
+    height: 380px;
+    top: 140px;
+    left: 260px;
+    right:0px;
+}
+
+.brands-title{
+    width: 400px;
+    position: absolute;
+    top: 590px;
+    left: 170px;
+    border: 2px;
+    background: orangered;
+    color: white;
+    border-radius: 2px;
+    font-size: 22px;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.colecoes {
+    display: inline-block;
+}
+
+.colecoes{
+    position: absolute;
+    top: 694px;
+    left: 170px;
+    display: inline-block;
+}
+
+.colecoes li {
+    display: inline-block;
+    text-align: center;
+}
+
+.yeezy {
+    position: absolute;
+    left: 380px;
+}
+
+.dunk {
+    position: absolute;
+    left: 760px;
+}
+
+.colecoes h2 {
+        width: 190px;
+        position: absolute;
+        top: 400px;
+        border: 2px;
+        background: orangered;
+        color: white;
+        text-align: center;
+        border-radius: 2px;
+        font-size: 22px;
+        font-weight: bolder;
+}
+
+.yeezy a:hover {
+    background-position: top;
+}

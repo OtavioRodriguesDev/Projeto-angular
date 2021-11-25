@@ -1,0 +1,26 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.toolbar {
+  overflow: hidden;
+  background-color: #7000FF;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 1000;
+  left: 0;
+  padding: 10px;
+}
